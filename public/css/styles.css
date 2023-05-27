@@ -1,0 +1,101 @@
+#error {
+	color: red;
+	width: 50%;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #4d5a66;
+	background-color: rgba(110, 228, 255, 0.861);
+	background-size: cover;
+}
+
+.main-container{
+	font-family: 'Montserrat', sans-serif;
+	color: #4d5a66;
+	background-color: rgba(25, 3, 222, 0.861);
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	margin: 0.5rem auto;
+	font-weight: 800;
+	font-size: 40px;
+	color: #000000;
+	padding-bottom: 1rem;
+}
+
+
+
+form {
+	max-width: 500px;
+	margin: 2rem auto;
+	margin-bottom: 0px;
+	background-color: aliceblue;
+	border-radius: .5rem;
+	background-size: cover;
+}
+
+p {
+	text-align: center;
+	font-size: large;
+}
+
+#switch {
+	display: block;
+	color: rgba(3, 3, 123, 0.861);
+	text-align: center;
+	padding: 1rem;
+}
+
+
+
+input, #address1, #address2 {
+	display: block;
+	font-size: 16px;
+	width: 50%;
+	margin: 2rem auto;
+	height: 2rem;
+}
+
+.sub-button, .client-edit, .agency-details{
+	overflow: hidden;
+	font-size: 16px;
+	display: block;
+	width: 30%;
+	margin: 20px auto;
+	padding: 6px 6px;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: rgba(0, 0, 211, 0.861);
+	cursor: pointer;
+	text-align: center;
+	transition: all 250ms;
+}
+
+ul, .container-div {
+	text-align: center;
+	margin : auto;
+	white-space: pre;
+}
+
+li{
+	width : 50%;
+	background-color: #fff;
+	display: block;
+	padding : 1rem;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 1rem;
+	box-shadow : -1rem 1rem 5rem rgb(39, 224, 248) ;
+	border-radius: 10px;
+}
+
+a {
+	list-style: none;
+	color: rgb(255, 255, 255);
+}
+
